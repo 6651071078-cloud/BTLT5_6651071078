@@ -1,0 +1,5 @@
+body{font-family:"Times New Roman",serif;font-size:16px;margin:20px}
+table{border-collapse:collapse}
+input,select,button{font-size:14px}
+.t{background:#ccffcc;border:1px solid #66cc66}
+.t input[type=text],.t input:not([type]){width:150px}

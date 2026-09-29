@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<title>Câu 25</title>
+<link rel="stylesheet" href="Styles/cau25.css">
+</head>
+<body>
+<form><table class="t" border="1" cellpadding="4">
+<tr><th colspan="3"><h2>THỰC ĐƠN</h2></th></tr>
+<tr><th>Thức ăn</th><th>Nước uống</th><th>Thời điểm</th></tr>
+<tr><td><select id="food" multiple size="7"><option value="Bún bò">Bún bò</option><option value="Hủ tiếu">Hủ tiếu</option><option value="Bánh canh">Bánh canh</option><option value="Phở bò">Phở bò</option><option value="Nuôi">Nuôi</option><option value="Bánh mì thịt">Bánh mì thịt</option><option value="Bánh cuốn">Bánh cuốn</option></select></td>
+<td><select id="drink" multiple size="7"><option value="Cà phê đá">Cà phê đá</option><option value="Cà phê sữa đá">Cà phê sữa đá</option><option value="Chanh dây">Chanh dây</option><option value="Chanh muối">Chanh muối</option><option value="Xí muội">Xí muội</option><option value="Sữa tươi">Sữa tươi</option><option value="Cam vắt">Cam vắt</option></select></td>
+<td><input type="radio" name="tg" checked> Ban ngày<br><input type="radio" name="tg" id="dem"> Ban đêm</td></tr>
+<tr><td colspan="3" align="center"><input type="button" value="Tính tiền" onclick="tinhTien()"></td></tr></table>
+<table class="t" id="bill" border="2" cellpadding="2"></table></form>
+<script src="Scripts/cau25.js"></script>
+</body>
+</html>
